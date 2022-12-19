@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.33103.201
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETConfiguration.Core", "src\ETConfiguration.Core\ETConfiguration.Core.csproj", "{7C71A583-A483-4652-86E4-119741EBA82F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETConfiguration.Database.Sample", "src\ETConfiguration.Database.Sample\ETConfiguration.Database.Sample.csproj", "{E0D347C4-DA60-447B-AC52-694906150285}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETConfiguration.Database.Sample", "src\ETConfiguration.Database.Sample\ETConfiguration.Database.Sample.csproj", "{E0D347C4-DA60-447B-AC52-694906150285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETConfiguration.Consul.Sample", "src\ETConfiguration.Consul.Sample\ETConfiguration.Consul.Sample.csproj", "{6371BFFA-9064-4C40-8867-2A28A30C1E94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E0D347C4-DA60-447B-AC52-694906150285}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0D347C4-DA60-447B-AC52-694906150285}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0D347C4-DA60-447B-AC52-694906150285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6371BFFA-9064-4C40-8867-2A28A30C1E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6371BFFA-9064-4C40-8867-2A28A30C1E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6371BFFA-9064-4C40-8867-2A28A30C1E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6371BFFA-9064-4C40-8867-2A28A30C1E94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
