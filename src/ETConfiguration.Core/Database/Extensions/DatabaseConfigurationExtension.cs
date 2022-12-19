@@ -10,7 +10,7 @@ namespace ETConfiguration.Core.Database.Extensions
         public static IConfigurationBuilder AddDatabaseConfiguration(this IConfigurationBuilder builder, 
             IServiceProvider serviceProvider,
             bool reloadOnChange, 
-            int reloadDelay,
+            TimeSpan reloadDelay,
             Expression<Func<Configuration, bool>>? configurationExpression = null
             )
         {

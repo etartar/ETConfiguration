@@ -25,7 +25,7 @@ builder.Services.AddScoped<IConfigurationWriteRepository, ConfigurationWriteRepo
 builder.Configuration.AddDatabaseConfiguration(
     serviceProvider: builder.Services.BuildServiceProvider(),
     reloadOnChange: true,
-    reloadDelay: 5000,
+    reloadDelay: TimeSpan.FromSeconds(5),
     configurationExpression: x => x.IsActive
     );
 

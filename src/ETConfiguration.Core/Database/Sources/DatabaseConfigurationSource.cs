@@ -9,10 +9,10 @@ namespace ETConfiguration.Core.Database.Sources
     {
         private readonly IServiceProvider _serviceProvider;
         private readonly bool _reloadOnChange;
-        private readonly int _reloadDelay;
+        private readonly TimeSpan _reloadDelay;
         private readonly Expression<Func<Configuration, bool>>? _predicate = null;
 
-        public DatabaseConfigurationSource(IServiceProvider serviceProvider, bool reloadOnChange, int reloadDelay, Expression<Func<Configuration, bool>>? predicate = null)
+        public DatabaseConfigurationSource(IServiceProvider serviceProvider, bool reloadOnChange, TimeSpan reloadDelay, Expression<Func<Configuration, bool>>? predicate = null)
         {
             _serviceProvider = serviceProvider;
             _reloadOnChange = reloadOnChange;
